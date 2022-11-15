@@ -3,12 +3,19 @@ requirements: ruby 2.7.6
 # Clonethis repo
 $ git clone git@github.com:atomosdovini/point_sale.git
 
+#if need install minitest 
+gem install minitest
+
 # On terminal, run:
 $ ruby point_sale.rb
 
+-Tests are made using the minitest gem with auto run
+-Minitest is choice to do simple tests validating the output results.
+
+---*Challenge*---
 *General Requirements*
 Use either Ruby or Javascript. If you feel more comfortable with another language, please let us know and we can discuss.
-Do not use any external libraries to solve this problem. You may only use external libraries or tools for building or testing purposes (e.g., Rspec, Jest, Mocha, etc.).
+Do not use any external libraries to solve this problem. You may only use external libraries or tools for building or testing purposes (e.g.,MiniTest, Rspec, Jest, Mocha, etc.).
 Include detailed instructions on how to run the application and an explanation of assumptions you make (if any)
 
 *IMPORTANT:*
